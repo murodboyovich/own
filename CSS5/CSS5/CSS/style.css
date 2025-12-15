@@ -1,0 +1,107 @@
+body{
+place-items: center;
+padding: 20px;
+}
+
+.travel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+    color: #273d45;
+    text-transform: uppercase;
+    opacity: 50%;
+    height: 20px;
+
+}
+
+.textinspanish{
+    font-family: times 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+    color: #273d45;
+    text-align: center;
+}
+
+.backgroundimage{
+    border: 15px solid white;
+    height: 541px;
+    width: 821px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 55px 15px rgb(0, 0, 0, 15%);
+    background-image: url(../IMG/photo_2025-12-11_09-52-38.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text1{
+    margin-top: 50px;
+    color: #273d45;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    width:500px;
+    line-height:20pt;
+    opacity: 80%;
+}
+
+.text2{
+    margin-top:25px;
+     color: #273d45;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    width:500px;
+    line-height:20pt;
+    margin-bottom:25px;
+    opacity: 80%;
+}
+.list li{
+    background-image: url(../IMG/li.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+}
+.list{
+     color: #273d45;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    width:500px;
+    line-height:10pt;
+    list-style-type: none;
+}
+
+.first{
+    text-shadow:0px 0px 1px rgb(0, 0, 0);
+}
+
+.second{
+    font-style: italic  ;
+    color: #80b7b3;
+}
+
+.third{
+    text-shadow:0px 0px 1px rgb(0, 0, 0);    
+}
+
+.forth{
+    opacity: 30%;
+    text-shadow:0px 0px 1px rgb(0, 0, 0);
+    text-decoration: line-through;
+}
+
+.button{
+    width: 199px;
+    height: 44px;
+    border-radius: 30px;
+    border: none;
+    background-color: #80b7b3;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.textinbutton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    letter-spacing: 4px;
+}
