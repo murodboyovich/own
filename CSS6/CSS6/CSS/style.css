@@ -1,0 +1,114 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+.list li{
+    background-image: url(../IMG/icons/li.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.list{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+    color: #273d45;
+    font-size: 10pt;
+    width:500px;
+    line-height:10pt;
+    list-style-type: none;
+}
+
+.first{
+  text-decoration: line-through;
+}
+
+.second{
+  font-weight: bold;
+}
+
+.third{
+font-style: italic;
+}
+
+.forth{
+  text-transform: uppercase;
+}
+
+.button{
+    width: 199px;
+    height: 44px;
+    border-radius: 30px;
+    border: none;
+    background-color: #80b7b3;
+    color: white;
+    margin-top: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.textinbutton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    letter-spacing: 4px;
+}
+
+.input{
+  width: 292px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 25px;
+  border-style: solid;
+  border-color: #b0b0b0;
+  border-width: 1px;
+}
+
+.first:hover{
+  text-decoration: none;
+}
+
+.second:hover{
+  color: red;
+}
+
+.third:hover{
+  font-style: normal;
+}
+
+.forth:hover{
+  text-transform: none;
+}
+
+.button:hover{
+  background-color: #3a5856;
+}
+.button:active{
+  background-color: #818181;
+  box-shadow: none;
+}
+
+.input:focus{
+  border-style: solid;
+  border-color: #7fbed5;
+  border-width: 1px;
+  box-shadow:0 0 20px #7fbed5;
+  outline: none;
+}
